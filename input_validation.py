@@ -1,6 +1,15 @@
+import pdb
+
+pdb.set_trace()
+
+def test():
+	print('test')
+	a = 20
+
 age = 18
 
 while age > 17:
+	test()
 	age = input("Age : ")
 	try:
 		age = int(age)
